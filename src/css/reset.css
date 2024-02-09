@@ -13,7 +13,8 @@ p:last-child {
   margin-bottom: 0;
 }
 
-ul {
+ul,
+ol {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -32,4 +33,36 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+/*! My added styles */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.container {
+  width: 100%;
+  max-width: 320px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 40px 0;
 }
