@@ -104,6 +104,7 @@
 .header-socials {
     margin-left: auto;
     margin-right: 3.9%;
+
 }
 
 @media only screen and (max-width: 767.98px) {
@@ -116,9 +117,14 @@
 .header-socials-list {
     display: flex;
     gap: 13px;
+    align-items: center;
+    justify-content: center;
 }
 
 .header-socials-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     fill: #1b414b;
 }
 
