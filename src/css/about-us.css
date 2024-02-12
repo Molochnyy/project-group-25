@@ -1,0 +1,152 @@
+.about-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-container {
+  display: flex;
+  align-items: top;
+  background-color: #fbfbfb;
+  color: #1b414b;
+  border-radius: 24px;
+  width: auto;
+  height: 675px;
+  padding: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.about-title {
+  width: auto;
+  height: auto;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  color: #1b414b;
+  margin-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+}
+
+.about-text-container {
+  max-width: 295px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.about-text-title {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  line-height: 100%;
+  margin-bottom: 20px;
+}
+
+.about-text {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: -0.02em;
+  color: #040306;
+  opacity: 0.4;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-container {
+    max-width: 704px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+  }
+
+  .about-title {
+    font-size: 48px;
+    margin-bottom: 50px;
+    line-height: 100%;
+    padding-left: 32px;
+  }
+
+  .about-text-container {
+    max-width: 389px;
+    padding-left: 32px;
+    padding-bottom: 50px;
+  }
+
+  .about-text-title {
+    font-size: 23px;
+  }
+
+  .about-text {
+    font-size: 13px;
+  }
+
+  .about-img {
+    content: url('/img/about-us/modern-yacht-tablet.png');
+    min-width: 704px;
+    height: 470px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-container {
+    max-width: 1180px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .about-wrap {
+    flex-direction: row;
+  }
+
+  .about-title {
+    font-size: 48px;
+    line-height: 100%;
+    max-width: 537px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 40px;
+    margin-right: 189px;
+  }
+
+  .about-text-container {
+    max-width: 354px;
+  }
+
+  .about-img {
+    content: url('/img/about-us/modern-yacht-pc.png');
+    width: 1180px;
+    height: 470px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    z-index: 1;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about-container {
+    min-width: 1340px;
+  }
+
+  .about-title {
+    margin-right: 299px;
+    padding-left: 50px;
+  }
+
+  .about-text-container {
+    max-width: 404px;
+  }
+
+  .about-img {
+    content: url('/img/about-us/modern-yacht.png');
+    width: 1340px;
+    height: 470px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    z-index: 1;
+  }
+}
