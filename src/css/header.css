@@ -123,10 +123,13 @@
 .header-socials-list {
     display: flex;
     gap: 13px;
+    align-items: center;
 }
 
 .header-socials-links {
     fill: #1b414b;
+    margin: auto;
+    display: flex;
 }
 
 .header-socials-links:hover,
