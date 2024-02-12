@@ -312,6 +312,12 @@
     margin-bottom: auto;
 }
 
+.mobile-menu-nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
 .mobile-menu-nav-button {
     border-radius: 8px;
     width: 91px;
