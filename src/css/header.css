@@ -2,6 +2,9 @@
     padding-left: 19px;
     padding-right: 19px;
     padding-top: 19px;
+
+    /* position: fixed;
+    width: 100%; */
 }
 
 @media only screen and (min-width: 767.98px) {
