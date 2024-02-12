@@ -1,0 +1,76 @@
+<section class="section rent-a-yacht">
+  <div class="container rent-container">
+    <!-- <h2 class="rent-title">Rent a yacht now</h2> -->
+    <div class="rent-wrap">
+      <h2 class="rent-title">Rent a yacht now</h2>
+      <form class="rent-form">
+        <input
+          type="text"
+          name="rent-lable-name"
+          class="rent-input"
+          id="rent-lable-name"
+          placeholder="Full Name"
+          required
+          pattern="[A-Za-z\s]{2,}"
+          title="Please enter a valid Full Name (only letters and spaces, minimum 2 characters)"
+        />
+        <input
+          type="email"
+          name="rent-lable-email"
+          class="rent-input"
+          id="rent-lable-email"
+          placeholder="Email"
+          required
+          pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+          title="Please enter a valid email address"
+        />
+        <input
+          type="tel"
+          name="rent-lable-phone"
+          class="rent-input"
+          id="rent-lable-phone"
+          placeholder="Phone number"
+          required
+          pattern="[0-9]{10}"
+          title="Please enter a valid 10-digit phone number"
+        />
+        <textarea
+          name="rent-user-comment"
+          id="rent-user-comment"
+          placeholder="Comment"
+          class="rent-input rent-comment"
+          required
+        ></textarea>
+        <button type="submit" class="rent-button">Send</button>
+      </form>
+    </div>
+    <picture class="rent-pic">
+      <source
+        srcset="
+          ./img/rent-a-yacht/rent-img-pc-1x-min.jpg 1x,
+          ./img/rent-a-yacht/rent-img-pc-2x-min.jpg 2x
+        "
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="
+          ./img/rent-a-yacht/rent-img-tab-1x-min.jpg 1x,
+          ./img/rent-a-yacht/rent-img-tab-2x-min.jpg 2x
+        "
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="
+          ./img/rent-a-yacht/rent-img-mob-1x-min.jpg 1x,
+          ./img/rent-a-yacht/rent-img-mob-2x-min.jpg 2x
+        "
+        media="(max-width: 767px)"
+      />
+      <img
+        class="rent-img"
+        src="../img/rent-a-yacht/rent-img-pc-1x-min.jpg"
+        alt="Yaht Image"
+      />
+    </picture>
+  </div>
+</section>
