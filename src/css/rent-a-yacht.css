@@ -43,7 +43,8 @@
 
   color: #fbfbfb;
   width: 122px;
-  padding: 14px 44px;
+  height: 46px;
+  /* padding: 14px 44px; */
 
   border-radius: 15px;
   background: #1b414b;
@@ -90,7 +91,8 @@
   }
   .rent-button {
     width: 194px;
-    padding: 18px 75px;
+    height: 56px;
+    /* padding: 18px 75px; */
     font-size: 18px;
     line-height: 1.1;
     margin-bottom: 100px;
