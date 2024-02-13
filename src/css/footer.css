@@ -260,10 +260,10 @@
     }
 }
 
-/* .mobile-menu.is-open {
+.mobile-menu.is-open {
     transform: translateX(0);
     visibility: visible;
-} */
+}
 
 .mobile-menu-container {
     padding-left: 19px;
