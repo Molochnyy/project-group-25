@@ -53,6 +53,9 @@ ol {
   text-align: left;
   opacity: 0.8;
 }
+.first-paragraph {
+  max-width: 238px;
+}
 .adv-img {
   border-radius: 24px;
   margin-top: 20px;
