@@ -1,4 +1,4 @@
-.team-part {
+/* .team-part {
   background-color: #f4f4fd;
   padding-top: 96px;
   padding-bottom: 96px;
@@ -76,11 +76,11 @@ IMG.displayed {
   width: 40px;
   height: 40px;
   fill: #f4f4fd;
-}
+} */
 
 /**-----------Reviews TABLET---------------*/
 
-.workers-list {
+/* .workers-list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -96,11 +96,11 @@ IMG.displayed {
 .team-container {
   padding-left: 108px;
   padding-right: 108px;
-}
+} */
 
 /**-----------Reviews ---------------*/
 
-.team-part {
+/* .team-part {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -115,4 +115,4 @@ IMG.displayed {
 .workers-list-item {
   width: calc((100% - 24px * 3) / 4);
   margin-bottom: 0;
-}
+} */
