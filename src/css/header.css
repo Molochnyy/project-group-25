@@ -119,12 +119,15 @@
 }
 
 .header-socials-list {
-  display: flex;
-  gap: 13px;
+    display: flex;
+    gap: 13px;
+    align-items: center;
 }
 
 .header-socials-links {
-  fill: #1b414b;
+    fill: #1B414B;
+    margin: auto;
+    display: flex;
 }
 
 .header-socials-links:hover,
