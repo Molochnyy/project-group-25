@@ -99,9 +99,9 @@
   cursor: pointer;
 }
 
-.header-nav-button.active {
+/* .header-nav-button.active {
   background-color: #1b414b;
-}
+} */
 
 .header-nav-button:hover,
 .header-nav-button:focus {
