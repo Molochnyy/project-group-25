@@ -116,3 +116,160 @@ IMG.displayed {
   width: calc((100% - 24px * 3) / 4);
   margin-bottom: 0;
 } */
+
+
+
+.rewiews {}
+
+.rewiews-container {}
+
+.rewiews-title {
+  background-color: transparent;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+}
+
+@media only screen and (min-width: 767.98px) {
+  .rewiews-title {
+    font-size: 48px;
+  }
+}
+
+.rewiews-text {
+  background-color: transparent;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+  opacity: 0.4;
+  margin-top: 25px;
+  margin-bottom: 75px;
+}
+
+@media only screen and (min-width: 767.98px) {
+  .rewiews-text {
+    font-size: 14px;
+    line-height: 1.29;
+  }
+}
+
+@media only screen and (min-width: 1279.98px) {
+  .rewiews-text {
+    margin-top: 25px;
+    margin-bottom: 75px;
+  }
+}
+
+.rewiews-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 26px;
+}
+
+.rewiews-item {
+  border-radius: 24px;
+  padding: 32px 8px;
+  width: 335px;
+  height: 282px;
+  background: #fbfbfb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 767.98px) {
+  .rewiews-item {
+    width: 336px;
+  }
+}
+
+@media only screen and (min-width: 1279.98px) {
+  .rewiews-item {
+    padding: 32px 28px;
+    width: 376px;
+  }
+}
+
+.rewiews-item.second {}
+
+@media only screen and (max-width: 767.98px) {
+  .rewiews-item.second {
+    display: none
+  }
+}
+
+.rewiews-item.third {}
+
+@media only screen and (max-width: 1279.98px) {
+  .rewiews-item.third {
+    display: none
+  }
+}
+
+.rewiews-img {
+  border-radius: 72px;
+  /* padding: 12px; */
+  /* width: 56px;
+  height: 56px; */
+}
+
+.rewiews-underimg-grup {
+  padding-top: 24px;
+}
+
+.rewiews-underimg-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.10;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #040306;
+}
+
+.rewiews-underimg-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.40;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(4, 3, 6, 0.4);
+  padding-top: 8px;
+  max-height: 110px;
+  width: 303px;
+}
+
+@media only screen and (min-width: 767.98px) {
+  .rewiews-underimg-text {
+    width: 304px;
+  }
+}
+
+@media only screen and (min-width: 1279.98px) {
+  .rewiews-underimg-text {
+    width: 320px;
+  }
+}
+
+@media only screen and (min-width: 767.98px) {
+  .rewiews-underimg-text.victoria {
+    width: 296px;
+  }
+}
+
+@media only screen and (min-width: 1279.98px) {
+  .rewiews-underimg-text.ihor {
+    width: 293px;
+  }
+}
