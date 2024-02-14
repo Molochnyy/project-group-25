@@ -1,6 +1,8 @@
-.rewiews {}
+.rewiews {
+}
 
-.rewiews-container {}
+.rewiews-container {
+}
 
 .rewiews-title {
   background-color: transparent;
@@ -95,19 +97,21 @@
   }
 }
 
-.rewiews-item.second {}
+.rewiews-item.second {
+}
 
 @media only screen and (max-width: 767.98px) {
   .rewiews-item.second {
-    display: none
+    display: none;
   }
 }
 
-.rewiews-item.third {}
+.rewiews-item.third {
+}
 
 @media only screen and (max-width: 1279.98px) {
   .rewiews-item.third {
-    display: none
+    display: none;
   }
 }
 
@@ -126,7 +130,7 @@
   font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 18px;
-  line-height: 1.10;
+  line-height: 1.1;
   letter-spacing: -0.02em;
   text-align: center;
   color: #040306;
@@ -136,7 +140,7 @@
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.40;
+  line-height: 1.4;
   letter-spacing: -0.02em;
   text-align: center;
   color: rgba(4, 3, 6, 0.4);
