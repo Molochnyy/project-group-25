@@ -169,17 +169,27 @@ IMG.displayed {
 }
 
 .rewiews-list {
-  display: flex;
+  /* display: flex;
   align-items: center;
   justify-content: center;
-  gap: 26px;
+  gap: 26px; */
+}
+
+@media only screen and (min-width: 767.98px) {
+  .rewiews-list {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 26px;
+  }
 }
 
 .rewiews-item {
   border-radius: 24px;
   padding: 32px 8px;
-  width: 335px;
-  height: 282px;
+  /* width: 335px; */
+  /* height: 282px; */
+  width: 100%;
   background: #fbfbfb;
   display: flex;
   flex-direction: column;
@@ -246,8 +256,8 @@ IMG.displayed {
   text-align: center;
   color: rgba(4, 3, 6, 0.4);
   padding-top: 8px;
-  max-height: 110px;
-  width: 303px;
+  /* max-height: 110px; */
+  width: 100%px;
 }
 
 @media only screen and (min-width: 767.98px) {
