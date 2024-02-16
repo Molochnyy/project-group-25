@@ -84,14 +84,14 @@
   height: 40px;
 }
 
-.header-nav-button {
+/* .header-nav-button {
   border-radius: 8px;
   width: 91px;
   height: 40px;
   background-color: rgba(27, 65, 75, 0.5);
   border: none;
   cursor: pointer;
-}
+} */
 
 /* .header-nav-button.active {
   background-color: #1b414b;
@@ -110,10 +110,20 @@
   text-transform: uppercase;
   text-align: center;
   color: #fbfbfb;
-  background-color: transparent;
-  width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  width: 91px;
+  height: 40px;
+  background-color: rgba(27, 65, 75, 0.5);
+  border: none;
+  cursor: pointer;
+}
+
+.header-nav-button-links:hover,
+.header-nav-button-links:focus {
+  background-color: #1b414b;
 }
 
 .header-socials {
